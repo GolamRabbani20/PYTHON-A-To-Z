@@ -1,0 +1,1 @@
+x=[h for k in input().split()]

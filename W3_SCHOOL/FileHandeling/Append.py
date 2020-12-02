@@ -1,0 +1,5 @@
+x=open("kamla.txt","rt")
+#n=input("Enter a string:")
+#x.write(n)
+print(x.read())
+x.close()

@@ -1,0 +1,26 @@
+import numpy as np
+k=np.array([1,2,3,4])
+print(k.dtype)
+
+str=np.array(['apple','orange','kala','corona'])
+print(str.dtype)
+
+tr=np.array([1,2,3,4,5],dtype='S')
+print(tr)
+print(tr.dtype)
+print(".................................")
+m=np.array([1.3,2.3,5.3,6.1])
+print(m)
+newDataType=m.astype('i')
+newDataType1=m.astype(int)
+print(newDataType1)
+print(newDataType)
+print(m.dtype)
+
+print("..............................")
+f=np.array([1.5,2.6,0,56.12])
+new=f.astype(bool)
+new2=f.astype('S')
+print("New=",new2)
+print(new)
+print(f.dtype)
