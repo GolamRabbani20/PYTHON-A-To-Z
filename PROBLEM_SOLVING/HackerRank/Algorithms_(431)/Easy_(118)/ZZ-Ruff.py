@@ -1,2 +1,6 @@
 x='abc'
-print(x[:6])
+y='abcde'
+x=set(x)
+y=set(y)
+
+print(len(y.intersection(x)))
