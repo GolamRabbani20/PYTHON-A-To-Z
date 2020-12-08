@@ -143,6 +143,20 @@ class Compiler_Project:
                 p = i
         return maxx,p
 
+    def Compiler_Lab17(self,x):
+        count = 0
+        n=len(x)
+        if n == 1 and x == 'a':
+            print("Acceptable")
+        else:
+            for i in x[1:]:
+                if i == 'b':
+                    count += 1
+            if count == n - 1:
+                print("Acceptable")
+
+            else:
+                print("Not acceptable")
 
 #I am Golam Rabbani . I love python progr@mming very much python python . I haved solved more than 300 problems in differnt online judge . #Rana is a good    boy  2020 python
 
@@ -152,7 +166,8 @@ print()
 while True:
     print("1.Show the string\n2.Tokenize the string\n3.Number of article\n4.Number of Auxiliary verb\n5.Number of prepositions\n6.Remove Extra space")
     print("7.Find valid identifier from the given string\n8.Find Invalid Identifier\n9.Number of strong/week verbs\n10.Count vowel,consonant,digits,white_space,word")
-    print("11.Show length of the string\n12.Reverse the string\n13.Count number of sentence\n14.Search an item from the string\n15.Remove a word\n16.Maximum frequency of a word\n0.Exit\n")
+    print("11.Show length of the string\n12.Reverse the string\n13.Count number of sentence\n14.Search an item from the string\n15.Remove a word\n"
+          "16.Maximum frequency of a word\n17.Regular Expression\n0.Exit\n")
     n=int(input("Chose your option:"))
 
     if n==1:
@@ -226,6 +241,17 @@ while True:
 
     elif n==16:
         print("Maximum frequency and word",lst.Maximum_Frequency_of_a_String(x.split()))
+
+    elif n==17:
+        while True:
+            x=input("Enter a string:")
+            lst.Compiler_Lab17(x)
+            ch=input("Do you want to check regular expression for(ab*)-(Y/N):")
+            if ch.upper()=='Y':
+                x=input("Enter a string:")
+                lst.Compiler_Lab17(x)
+            else:
+                break
 
     elif n==0:
         break
