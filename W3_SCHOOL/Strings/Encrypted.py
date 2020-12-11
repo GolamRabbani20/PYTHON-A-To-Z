@@ -1,7 +1,7 @@
 from string import ascii_lowercase
 msg=input("Enter a massage:")
 msg=msg.lower()
-Encrypted_msg=''
+Encrypted_msg=""
 for k in msg:
     if k in ascii_lowercase:
         k2=122-ord(k)
