@@ -1,4 +1,4 @@
-#"Mathematics" word ter letter guli k koto vabe shagano jay?
+#j kono word ar letter guli k koto vabe shagano jay?
 from string import ascii_uppercase as k
 def Pernutation(word):
     Result=1
