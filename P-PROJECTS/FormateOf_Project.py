@@ -115,5 +115,3 @@ while True:
         print("The created linked list:",end=" ")
         lst.Display_The_LinkedList()
         print()
-
-
