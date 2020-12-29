@@ -1,5 +1,4 @@
 from array import *
-
 A=array('i',[])
 B=array('i',[])
 
