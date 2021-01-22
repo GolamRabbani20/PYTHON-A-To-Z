@@ -1,0 +1,21 @@
+.block{
+    height: 300px;
+    width:200px;
+    background-color: red;
+}
+.block:hover{
+    background-color:green;
+    height: 200px;
+    width:100px;
+}
+
+p{
+    color:blue;
+
+}
+
+p:hover{
+    color:deeppink;
+    font-weight:bold;
+    font-style:italic;
+}

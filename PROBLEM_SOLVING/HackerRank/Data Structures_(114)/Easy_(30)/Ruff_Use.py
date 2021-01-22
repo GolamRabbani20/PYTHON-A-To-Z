@@ -1,8 +1,1 @@
-
-x=[]
-for i in range(5):
-    x.append(i)
-for k in x[::-1]:
-    print(k)
-
-
+print([k for k in [1,2,3,4,5] if k%2])

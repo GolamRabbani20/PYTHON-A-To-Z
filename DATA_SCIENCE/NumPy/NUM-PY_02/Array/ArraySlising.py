@@ -13,3 +13,7 @@ print(arr[0:2, 2])
 
 a= ar([[1, 2, 3, 4, 5], [6, 7, 8, 9, 10],[78,25,63,5,6]])
 print(a[0:3, 1:4])
+
+for cell in arr.flat:
+    print(cell)
+

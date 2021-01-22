@@ -1,0 +1,5 @@
+#wrapper span{
+    background-color:red;
+    color:white;
+    display:block; /* none, block, inline */
+}
