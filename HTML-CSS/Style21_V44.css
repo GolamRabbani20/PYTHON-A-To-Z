@@ -1,0 +1,13 @@
+.block1{
+    height: 200px;
+    width:200px;
+    color:white;
+    background-color: red;
+
+    transition:background-color 1s, width 3s cubic-bezier(0.13, 0.3, 0.71, 0.94), height 2s;
+}
+.block1:hover{
+    background-color:green;
+    height: 300px;
+    width:400px;
+}

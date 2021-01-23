@@ -1,0 +1,22 @@
+.block10{
+    width:300px;
+    height:200px;
+    color:white;
+    margin:200px;
+    background-color:red;
+    transition:all 2s cubic-bezier(0.13, 0.3, 0.71, 0.94);
+
+}
+
+.block10:hover{
+     background-color:green;
+     height:300px;
+     width:400px;
+    /*
+    transform:rotate(360deg)
+    transform:skew(360deg);
+    transform: skewX(90deg);
+    transform: skewY(90deg);
+    */
+    transform: scale(1.5, 2);
+}

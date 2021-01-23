@@ -17,3 +17,6 @@ print(df[["Day","Event","Temperature"]])
 
 print("\n.................................................................Event")
 print(df.Event)
+
+#k = pd.read_excel('V3_Pandas.xlsx', 'Sheet1')
+#print(k)
