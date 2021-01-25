@@ -1,0 +1,12 @@
+p{
+    border:1px solid red;
+}
+img{
+    float:left;
+}
+p.clear{
+    clear:both;
+
+    /* clear:left; */
+    /* clear:right; */
+}

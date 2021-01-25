@@ -1,0 +1,10 @@
+.mydiv2{
+    height:200px;
+    width:150px;
+
+background: -moz-linear-gradient(-45deg,  #f9c667 15%, #607de5 29%, #607de5 29%, #9748ad 36%, #f9c667 41%, #f9c667 41%, #fc6a73 54%, #f9c667 72%, #f9c667 72%, #f79621 100%);
+background: -webkit-linear-gradient(-45deg,  #f9c667 15%,#607de5 29%,#607de5 29%,#9748ad 36%,#f9c667 41%,#f9c667 41%,#fc6a73 54%,#f9c667 72%,#f9c667 72%,#f79621 100%);
+background: linear-gradient(135deg,  #f9c667 15%,#607de5 29%,#607de5 29%,#9748ad 36%,#f9c667 41%,#f9c667 41%,#fc6a73 54%,#f9c667 72%,#f9c667 72%,#f79621 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9c667', endColorstr='#f79621',GradientType=1 );
+
+}

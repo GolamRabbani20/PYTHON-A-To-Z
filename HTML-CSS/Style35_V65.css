@@ -1,0 +1,21 @@
+.Mydiv4{
+    height:200px;
+    width:150px;
+    background-color: red;
+    position:relative;
+
+    animation-name:anim4;
+    animation-duration:5s;
+    animation-delay: 1s;
+    animation-iteration-count:3;
+    animation-direction:reverse;
+
+}
+
+@keyframes anim4{
+    0%{left:0;top:0;background-image: url("Images/p3.jpg");}
+    25%{left:500px;top:0;background-color:yellow}
+    50%{left:500px; top:500px;background-color:green}
+    75%{left:0;top:500px;background-image: url("Images/p4.jpg")}
+    100%{left:0;top:0;background-color:blue}
+}

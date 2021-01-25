@@ -1,0 +1,12 @@
+.mydiv{
+    width:200px;
+    height:150px;
+    background: radial-gradient(red 20%, green 44%, yellow 50%,blue 68%);
+
+    background: -o-radial-gradient(red 20%, green 44%, yellow 50%,blue 68%);
+    background: -moz-radial-gradient(red 20%, green 44%, yellow 50%,blue 68%);
+    background: -ms-radial-gradient(red 20%, green 44%, yellow 50%,blue 68%);
+    background: -webkit-radial-gradient(red 20%, green 44%, yellow 50%,blue 68%);
+
+    color:white;
+}

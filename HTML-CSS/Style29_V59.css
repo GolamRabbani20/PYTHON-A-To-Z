@@ -1,0 +1,6 @@
+.mydiv{
+    width:200px;
+    height:150px;
+    background:linear-gradient(to top,red, green, yellow);
+    color:white;
+}
