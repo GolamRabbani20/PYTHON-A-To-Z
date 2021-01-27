@@ -1,0 +1,24 @@
+ul#Mymenu2{
+    padding:0;
+    list-style-type: none;
+    margin:0 auto;
+}
+#Mymenu2 li {
+    float: left;
+    border-right: 1px solid red;
+    border-bottom: 1px solid orange;
+}
+#Mymenu2 li:last-child {
+    border-right: none;
+}
+
+#Mymenu2 li a{
+    color:white;
+    text-decoration: none;
+    background:black;
+    padding:10px 20px;
+    display:block;
+}
+#Mymenu2 li a:hover{
+    background:orange;
+}
