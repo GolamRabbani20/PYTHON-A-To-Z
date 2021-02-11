@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #EEE8AE;
+}
+
+#wrapper{
+    width:960px;
+    margin:20px auto;
+}
+
+#header{
+    background-color: #3e8114;
+    padding:10px;
+    border-bottom: 5px solid red;
+}
+
+#header h2{
+    color:white;
+    font-family:georgia;
+}
+#header p{
+    color: #32f806;
+    font-family:georgia;
+}
+
+
+#navigation{
+    background-color:#fff;
+    height: 38px;
+    border-bottom: 5px solid red;
+}
+
+#navigation ul{
+    background-color:#fff;
+    list-style-type: none;
+    z-index:999;
+}
+
+#navigation ul li{
+    float: left;
+    border-right: 2px solid #6B710E;
+}
+
+#navigation ul li:last-child{
+    border:none;
+}
+
+#navigation ul li a{
+    text-decoration: none;
+    color:#2B2A2A;
+    display:block;
+    padding:10px;
+    font-family: Arial;
+
+}
+
+#navigation ul li a:hover{
+    color:white;
+}
+
+#navigation ul li:hover{
+    background-color:#2B2A2A;
+}
+
+#slider img{
+    width:960px;
+    /*border-bottom:5px solid red;*/
+    vertical-align:middle; /* By defult baseline kora thake that's why its take 3px space*/
+}
+
+/* Sub manue*/
+#navigation ul li{
+    position:relative;
+}
+
+#navigation ul li ul{
+    position:absolute;
+    left:-9999px;
+}
+
+#navigation ul li:hover ul{
+    left:0;
+}
+
+#navigation ul li ul li{
+    float:none;
+    border-right:none;
+    border-bottom:2px solid red;
+    width:127px;
+    text-align:center;
+}
+
+#content_wrapper{
+    background-color:#fff;
+    padding:10px;
+    overflow:hidden;
+}
+
+#content{
+    width:620px;
+    margin-right:20px;
+    float:left;
+}
+
+#content h2{
+    color: green;
+    margin-bottom:5px;
+}
+
+#sidebar{
+    width:300px;
+    float: left;
+}
+
+#sidebar h2{
+    color:green;
+    font-family: arial;
+}
+
+#sidebar lu{
+    list-style-type: square;
+}
+
+#sidebar ul li a{
+    text-decoration: none;
+    color: #2B2A2A;
+    padding:3px;
+    display: block;
+}
+#footer{
+    background-color:#635548;
+    padding:5px;
+    text-align:center;
+}
+
+#footer p{
+    color:#fff;
+}

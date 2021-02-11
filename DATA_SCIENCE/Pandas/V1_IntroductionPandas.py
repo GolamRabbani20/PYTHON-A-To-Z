@@ -8,4 +8,4 @@ print("List of days when it rained\n",df['EST'][df['Events']=='Rain'])
 
 df.fillna(0, inplace=True)                      # Data Munging or Data Warning
 Average_WindSpeed = df['WindSpeedMPH'].mean()
-print("Average windSpeed =",Average_WindSpeed)
+print("Average windSpeed = ",Average_WindSpeed)

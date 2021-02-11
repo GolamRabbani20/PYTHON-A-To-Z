@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My_website01_V84-100_Part(01-15)</title>
+    <link rel="stylesheet" href="A_themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="A_themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="A_themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="A_themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="Style50_V84-100.css">
+</head>
+<body>
+    <div id = "wrapper">
+        <header>
+            <div id = 'header'>
+                <h2>This is Golam Rabbani's website</h2>
+                <p>Data scientist and Webdeveloper</p>
+            </div>
+        </header>
+
+        <nav>
+            <div id = "navigation">
+                <ul>
+                    <li><a href = "#">Home</a></li>
+                    <li><a href = "#">About</a></li>
+                    <li><a href = "#">Service</a></li>
+                    <li><a href = "#">AI</a></li>
+                    <li><a href = "#">Education</a>
+                            <ul>
+                                <li><a href="#">Sub item-01</a></li>
+                                <li><a href="#">Sub item-02</a></li>
+                                <li><a href="#">Sub item-03</a></li>
+                                <li><a href="#">Sub item-04</a></li>
+                                <li><a href="#">Sub item-05</a></li>
+                            </ul>
+                    </li>
+                    <li><a href = "#">Compiler</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section>
+            <div class="slider-wrapper theme-dark">
+                <div id="slider" class="nivoSlider">
+                    <img src="Images/banner03.jpg" data-thumb="demo/images/banner3.jpg" alt="" /> <a href="http://dev7studios.com">
+
+                    <img src="Images/rl.jpg" data-thumb="demo/images/rl.jpg" alt="" title="This is Rabbani's caption" /></a>
+
+                    <img src="Images/walle.jpg" data-thumb="demo/images/walle.jpg" alt="" data-transition="slideInLeft" />
+
+                    <img src="Images/L1.jpg" data-thumb="demo/images/L1.jpg" alt="" title="#htmlcaption" />
+                </div>
+                <div id="htmlcaption" class="nivo-html-caption"><h2>I Love Bangladesh</h2></div>
+            </div>                                                                   <!--img src="Images/banner03.jpg" alt = "This my photo"-->
+        </section>
+
+        <div id = "content_wrapper">
+            <div id = "content">
+                <article>
+                    <h2>Loren ipsum dolor sit amet, consectetuer</h2>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+                        the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
+                    </p>
+                </article>
+            </div>
+
+            <div id = "sidebar">
+                <aside>
+                    <h2>Sideber heading</h2>
+                    <ul>
+                        <li><a href="#">List item-01</a></li>
+                        <li><a href="#">List item-2</a></li>
+                        <li><a href="#">List item-03</a></li>
+                        <li><a href="#">List item-04</a></li>
+                        <li><a href="#">List item-05</a></li>
+                    </ul>
+                </aside>
+            </div>
+        </div>
+
+    <script type="text/javascript" src="JS/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="JS/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+
+
+        <footer>
+            <div id = "footer">
+                <p>&copy; All Right Reserved By - MGR Rabbani</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

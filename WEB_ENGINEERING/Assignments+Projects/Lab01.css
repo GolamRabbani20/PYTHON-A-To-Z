@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#form{
+    width: 500px;
+    background-color: lightgray;
+    margin-left: 200px;
+    margin-top:20px;
+    border: 2px solid black;
+}
+.legend{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom:20px;
+}
+
+.submit{
+    margin-left: 200px;
+    margin-bottom:10px;
+    padding: 10px;
+}
+
+.reset{
+    padding:10px 15px;
+}
+
+label{
+    margin-left:20px;
+}
+
+.tarea{
+    margin-left:240px;
+    display:block;
+}
+
+.name{
+    margin-left:100px;
+}
+
+.mail{
+    margin-left:87px;
+}
+.mgender{
+    margin-left:77px;
+}
+
+.pw{
+    margin-left:74px;
+}
+.cpw{
+    margin-left:62px;
+}
+.mobile{
+    margin-left: 141px;
+}
+.dob{
+    margin-left:98px;
+}
+
+.loc{
+    margin-left:79px;
+}

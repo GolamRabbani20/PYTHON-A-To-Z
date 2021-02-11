@@ -1,0 +1,19 @@
+@font-face{
+    /*font-family:"SolaimanLipi";
+    src:url("Font/SolaimanLipi.eot")  format("eot"),
+    url("Font/SolaimanLipi.woff") format("woff"),
+    url("Font/SolaimanLipi.ttf") format("truetype"),
+    url("Font/SolaimanLipi.svg#SolaimanLipi") format("svg");
+
+     */
+
+    font-family:"WendyLPStd-Medium";
+	src:url("Font/WendyLPStd-Medium.eot") format("eot"),
+	url("Font/WendyLPStd-Medium.woff") format("woff"),
+	url("Font/WendyLPStd-Medium.ttf") format("truetype"),
+	url("Font/WendyLPStd-Medium.svg#WendyLPStd-Medium") format("svg");
+}
+p{
+    font-family:WendyLPStd-Medium;
+    font-size:50px;
+}

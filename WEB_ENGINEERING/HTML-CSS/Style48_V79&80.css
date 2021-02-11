@@ -1,0 +1,11 @@
+.nivoSlider{
+    width:900px;
+}
+.nivo-caption{
+    bottom: 10px;
+    background:red;
+}
+
+.slider-wrapper{
+    margin-left: 25%;
+}
