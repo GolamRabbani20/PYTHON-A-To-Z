@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.wrap{
+    width: 980px;
+    margin-left: 250px;
+    border: 2px solid #6cf807;
+}
+
+p{
+    width:960px;
+    text-align:justify;
+    margin-left:15px;
+}
+
+h2{
+    margin-left:15px;
+}
+
+p#sticker{
+    background:red;
+    color:#fff;
+}
+
+.stick {
+	position:fixed;
+	top:0;
+	z-index:999999999999;
+}
+

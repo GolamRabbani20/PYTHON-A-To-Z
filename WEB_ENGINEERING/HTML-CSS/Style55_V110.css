@@ -12,11 +12,17 @@
 .content{
     background:#ddd;
     padding:10px 20px;
-    font-weight:bold;
-    color:red;
     position:relative;
+    z-index:10;
+    overflow:hidden;
+    display:inline-block;
 }
 
+.content:hover{
+    background:none;
+    color:white;
+    font-weight: bold;
+}
 
 .content:before{
     content:"";
@@ -26,9 +32,25 @@
     background:green;
     top:0;
     left:-50%;
+    z-index:-10;
+    transition:.3s all ease;
+}
+.button:hover .content:before{
+    left:0;
 }
 
-.button:hover.content:before{
-    left:0;
+.content:after{
+    content:"";
+    position:absolute;
+    width:50%;
+    height:100%;
+    background:red;
+    top:0;
+    right:-50%;
+    z-index:-10;
+    transition:.3s all ease;
+}
 
+.button:hover .content:after{
+    right:0;
 }

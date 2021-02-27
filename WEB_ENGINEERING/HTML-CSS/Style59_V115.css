@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+ul{
+    margin-left:200px;
+    list-style-type:none;
+}
+
+ul li a{
+    color:#fff;
+    background:#000;
+    display:inline-block;
+    padding: 10px 10px;
+    margin:5px 5px;
+    text-decoration:none;
+}
+
+ul li a:hover{
+    background:#6B710E;
+    font-weight:bold;
+    color:#6cf807;
+}
+
+ul li a:active{
+    background:red;
+}
+
+ul li a:focus{
+    background:#7a7a7a;
+}
+
+ul li a:visited{
+    background:orangered;
+}
