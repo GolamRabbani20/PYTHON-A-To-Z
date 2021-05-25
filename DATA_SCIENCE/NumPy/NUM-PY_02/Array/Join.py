@@ -27,3 +27,4 @@ print('\nArray12\n', arr12)
 
 arr13 = np.dstack((arr6, arr7))
 print('\nArray13\n', arr13)
+
